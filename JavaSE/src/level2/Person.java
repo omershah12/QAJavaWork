@@ -52,9 +52,7 @@ public class Person {
 
     }
 
-    public void list(){
-
-
+    public ArrayList list(){
         int i=0;
 
         while(al.size()>i)
@@ -70,9 +68,11 @@ public class Person {
 
         }
 
+        return al;
+
     }
 
-    public void searchList(String searchString){
+    public ArrayList searchList(String searchString){
 
         ArrayList<Person> search = new ArrayList<Person>();
 
@@ -89,6 +89,7 @@ public class Person {
             System.out.println(search.toString());
 
         }
+        return search;
     }
 
     public static void main(String [] args){

@@ -37,7 +37,7 @@ public class BlackJack {
         return value;
     }
 
-    private int uniqueSum(int x, int y, int z){
+    public int uniqueSum(int x, int y, int z){
 
         int sum=0;
 
@@ -57,7 +57,7 @@ public class BlackJack {
 
     }
 
-    private boolean tooHot(int temperature, boolean isSummer){
+    public boolean tooHot(int temperature, boolean isSummer){
 
         boolean value;
 
