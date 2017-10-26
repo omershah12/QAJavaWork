@@ -13,10 +13,10 @@ public class BlackJack {
         System.out.println("Task2: (3,3,3): "+ bJ.uniqueSum(3,3,3));
         System.out.println("Task2: (1,1,2): "+ bJ.uniqueSum(1,1,2));
 
-        System.out.println("Task3:(65, true): "+bJ.tooHot(65, true));
-        System.out.println("Task3:(65, false): "+bJ.tooHot(65, false));
-        System.out.println("Task3:(95, true): "+bJ.tooHot(95, true));
-        System.out.println("Task3:(95, false): "+bJ.tooHot(95, false));
+//        System.out.println("Task3:(65, true): "+bJ.tooHot(65, true));
+//        System.out.println("Task3:(65, false): "+bJ.tooHot(65, false));
+//        System.out.println("Task3:(95, true): "+bJ.tooHot(95, true));
+        System.out.println("Task3:(95, false): "+bJ.tooHot(45, false));
 
     }
 
@@ -67,6 +67,8 @@ public class BlackJack {
 
         } else{
             value=false;
+
+            System.out.println("Mans not hot");
 
         }
 

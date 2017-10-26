@@ -11,6 +11,26 @@ public class PersonTest {
 
     private Person person;
 
+
+    @Test
+    public void testList(){
+
+        Person omer = new Person("Omer",22, "Trainee");
+
+        Person omer1 = new Person("Omer",25, "Trainee");
+
+        ArrayList list = omer.searchList("");
+
+        list.add(omer);
+
+        list.add(omer1);
+
+        assertNotNull(list);
+
+        assertEquals(2, list.size());
+
+    }
+
     @Test
     public void testSearch(){
 
@@ -31,7 +51,6 @@ public class PersonTest {
         assertEquals(2, search.size());
 
         assertEquals(0, searchBob.size());
-
 
     }
 
